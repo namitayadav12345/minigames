@@ -17,5 +17,4 @@ const FootprintCard = props => {
     </li>
   )
 }
-
 export default FootprintCard

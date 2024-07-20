@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import './index.css'
 
 const GameStatusItem = props => {
@@ -23,10 +24,10 @@ const GameStatusItem = props => {
 
   return (
     <div className="game-status-container">
-      <h1 className="game-heading-status">ROCK PAPER SCISSOR</h1>
+      <h1 className="game-heading-status">Rock Paper Scissor</h1>
       <div className="score-container">
         <h1 className="rps-heading">
-          ROCK <br /> PAPER <br /> SCISSORS
+          Rock <br /> Paper <br /> Scissor
         </h1>
         <img
           src={emojiUrlScoreContainer}

@@ -1,5 +1,6 @@
-import Popup from 'react-modal'
+import Popup from 'reactjs-popup'
 
+// import 'reactjs-popup/dist/index.css'
 import {RiCloseLine} from 'react-icons/ri'
 
 import './index.css'
@@ -54,5 +55,4 @@ const CardFlipRulesPopUp = () => (
     </Popup>
   </div>
 )
-
 export default CardFlipRulesPopUp

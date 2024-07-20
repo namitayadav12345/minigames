@@ -1,9 +1,7 @@
 import {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Redirect} from 'react-router-dom'
 import {IoMdArrowBack} from 'react-icons/io'
-
 import './index.css'
-
 import MemoryMatrixRulesPopup from '../MemoryMatrixRulesPopup'
 import MemoryMatrixProgressBar from '../MemoryMatrixResultsPage'
 
@@ -31,7 +29,6 @@ class MemoryGameBoard extends Component {
   generateGrid = () => {
     const {gridSize} = this.state
     const newHighlightedCells = []
-    // eslint-disable-next-line
     for (let i = 0; i < gridSize; i = i + 1) {
       const randomRow = Math.floor(Math.random() * gridSize)
       const randomCol = Math.floor(Math.random() * gridSize)
@@ -66,7 +63,7 @@ class MemoryGameBoard extends Component {
 
   handleCellClick = (row, col) => {
     const {highlightedCells, clickedCells} = this.state
-    const {gridSize, level} = this.state
+    const {gridSize, level, levelArray} = this.state
     const clickedCell = {row, col}
     this.setState({
       clickedCells: [...clickedCells, clickedCell],

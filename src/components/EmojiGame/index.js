@@ -1,11 +1,9 @@
 import {Component} from 'react'
 import {IoMdArrowBack} from 'react-icons/io'
-import {Link} from 'react-router-dom'
-
+import {Link, Redirect} from 'react-router-dom'
 import EmojiCard from '../EmojiCard'
 import EmojiGameResult from '../EmojiGameResultView'
 import EmojiRulesPopup from '../EmojiRulesPopup'
-
 import './index.css'
 
 const emojisList = [

@@ -1,7 +1,5 @@
 import './App.css'
-
 import {Switch, Route} from 'react-router-dom'
-
 import GamigHomeScreen from './components/GamingHomeScreen'
 import RPSgameHomePage from './components/RPSgameHomePage'
 import RPSgame from './components/RPSgame'
@@ -10,6 +8,7 @@ import EmojiGame from './components/EmojiGame'
 import EmojiGameResult from './components/EmojiGameResultView'
 import CardFlipHomePage from './components/CardFlipHomePage'
 import CardFlipGame from './components/CardFlipGame'
+import CardFlipPlayPage from './components/CardFlipPlayPage'
 import MemoryMatrixHome from './components/MemoryMatrixHome'
 import MemoryGameBoard from './components/MemoryMatrixGameBoard'
 

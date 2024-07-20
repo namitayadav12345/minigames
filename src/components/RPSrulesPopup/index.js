@@ -1,5 +1,6 @@
-import Popup from 'react-modal'
+import Popup from 'reactjs-popup'
 
+// import 'reactjs-popup/dist/index.css'
 import {RiCloseLine} from 'react-icons/ri'
 
 import './index.css'
@@ -10,13 +11,18 @@ const RulesPopUp = () => (
       modal
       trigger={
         <button type="button" className="trigger-button">
-          RULES
+          Rules
         </button>
       }
     >
       {close => (
         <div className="container">
-          <button type="button" className="cross-icon" onClick={() => close()}>
+          <button
+            data-testid="close"
+            type="button"
+            className="cross-icon"
+            onClick={() => close()}
+          >
             <RiCloseLine />
             {/* */}
           </button>
@@ -80,5 +86,4 @@ const RulesPopUp = () => (
     </Popup>
   </div>
 )
-
 export default RulesPopUp

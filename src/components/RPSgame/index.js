@@ -1,11 +1,10 @@
 import {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {Link, Redirect} from 'react-router-dom'
 import {IoMdArrowBack} from 'react-icons/io'
-
 import GameStatusItem from '../RPSgameStatus'
 import Button from '../RPSbutton'
+import {Heading, Paragraph} from './styledComponents'
 import RulesPopup from '../RPSrulesPopup'
-
 import './index.css'
 
 const choicesList = [
@@ -94,14 +93,13 @@ class RPSgame extends Component {
         <Link to="/">
           <button className="back-btn" type="button">
             <IoMdArrowBack color="#ffffff" />
-            <p>back</p>
+            <p>Back</p>
           </button>
         </Link>
         <RulesPopup />
       </div>
-      <h1 className="game-heading">ROCK PAPER SCISSOR</h1>
-      {/* eslint-disable-next-line */}
-      <h1 className="game-heading">Let's pick</h1>
+      <h1 className="game-heading">Rock Paper Scissor</h1>
+      <h1 className="game-heading">Let’s pick</h1>
       <ul className="images-container">
         {choicesList.map(each => (
           <Button

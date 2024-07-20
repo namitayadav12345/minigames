@@ -1,6 +1,5 @@
 import {IoMdArrowBack} from 'react-icons/io'
-import {Link} from 'react-router-dom'
-
+import {Link, Redirect} from 'react-router-dom'
 import './index.css'
 
 const RPSgameHomePage = () => (
@@ -8,14 +7,14 @@ const RPSgameHomePage = () => (
     <Link to="/">
       <button className="back-btn" type="button">
         <IoMdArrowBack color="#ffffff" />
-        <p>back</p>
+        <p>Back</p>
       </button>
     </Link>
-    <h1 className="game-heading">ROCK PAPER SCISSOR</h1>
+    <h1 className="game-heading">Rock Paper Scissor</h1>
     <div>
       <img
         src="https://res.cloudinary.com/dv6ikqksk/image/upload/v1708940372/Group_7469_pgztk8.png"
-        alt="rock paper sissors"
+        alt="rock paper scissor"
         className="rps-image"
       />
     </div>
@@ -71,7 +70,7 @@ const RPSgameHomePage = () => (
     </ul>
     <Link to="/playRpsgame">
       <button type="button" className="start-btn">
-        Start Playing
+        Start playing
       </button>
     </Link>
   </div>

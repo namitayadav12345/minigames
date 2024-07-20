@@ -1,8 +1,7 @@
 .bg-conatiner {
   height: 1024px;
   width: 1440px;
-  background-color: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
-  background-size: cover;
+  background: linear-gradient(179.51deg, #9796f0 0.41%, #fbc7d4 128.48%);
 }
 
 .header {

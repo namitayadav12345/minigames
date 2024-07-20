@@ -2,10 +2,9 @@ import React from 'react'
 import {v4 as uuidv4} from 'uuid'
 import {Link} from 'react-router-dom'
 import {IoMdArrowBack} from 'react-icons/io'
-
 import CardFlipRulesPopup from '../CardFlipRulesPopup'
 import FootprintCard from '../CardFlipFootprintCard'
-
+import CardflipResultView from '../CardFlipGameResultPage'
 import './index.css'
 
 const cardsData = [
@@ -164,6 +163,7 @@ function CardFlipGame() {
   }
 
   // after the slected images have been checked for
+
   // equivalency we empty the firstCard and secondCard component
 
   function removeSelection() {

@@ -22,7 +22,6 @@
   color: #ffffff;
   align-self: center;
 }
-
 .score-card {
   height: 115px;
   width: 160px;
@@ -32,7 +31,6 @@
   flex-direction: column;
   align-items: center;
 }
-
 .headings-container {
   height: 80px;
   width: 80px;
@@ -43,7 +41,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .score-heading {
   color: #223a5f;
   font-family: Bree Serif;

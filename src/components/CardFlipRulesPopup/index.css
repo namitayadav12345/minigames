@@ -17,12 +17,8 @@
 
 .container {
   width: 1140px;
-  height: 536px;
-  top: 304px;
-  left: 150px;
-  gap: 0px;
-  border-radius: 12px 0px 0px 0px;
-  opacity: 0px;
+  height: 680px;
+  border-radius: 12px;
   background-color: #ffffff;
   margin-top: 172px;
   margin-left: 150px;

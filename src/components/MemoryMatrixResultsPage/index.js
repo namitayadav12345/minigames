@@ -1,5 +1,4 @@
 import {Line} from 'rc-progress'
-
 import './index.css'
 
 const MemoryMatrixProgressBar = props => {
