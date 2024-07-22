@@ -15,14 +15,14 @@ import MemoryGameBoard from './components/MemoryMatrixGameBoard'
 const App = () => (
   <Switch>
     <Route exact path="/" component={GamigHomeScreen} />
-    <Route exact path="/rpsGame" component={RPSgameHomePage} />
+    <Route exact path="/rock-paper-scissor" component={RPSgameHomePage} />
     <Route exact path="/playRpsgame" component={RPSgame} />
-    <Route exact path="/emojiGame" component={EmojiRules} />
+    <Route exact path="/emoji-game" component={EmojiRules} />
     <Route exact path="/playEmojiGame" component={EmojiGame} />
     <Route exact path="/emojiResult" component={EmojiGameResult} />
-    <Route exact path="/cardFlipGame" component={CardFlipHomePage} />
+    <Route exact path="/card-flip-memory-game" component={CardFlipHomePage} />
     <Route exact path="/playCardflipGame" component={CardFlipGame} />
-    <Route exact path="/memoryMatrixGame" component={MemoryMatrixHome} />
+    <Route exact path="/memory-matrix" component={MemoryMatrixHome} />
     <Route exact path="/playMemoryMatrixgame" component={MemoryGameBoard} />
   </Switch>
 )
